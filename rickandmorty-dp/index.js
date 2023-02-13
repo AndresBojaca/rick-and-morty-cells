@@ -1,0 +1,1 @@
+export { RickandmortyDp } from './src/RickandmortyDp.js';
