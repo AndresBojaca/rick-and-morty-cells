@@ -1,5 +1,5 @@
 ![LitElement component](https://img.shields.io/badge/litElement-component-blue.svg)
 
-# \<rickandmorty-dp>
+# \<rick-and-morty-cells>
 
 ##styling-doc

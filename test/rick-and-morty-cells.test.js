@@ -1,14 +1,14 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { html, fixture, assert, fixtureCleanup } from '@open-wc/testing';
-import '../rickandmorty-dp.js';
+import '../rick-and-morty-cells.js';
 
-suite('RickandmortyDp', () => {
+suite('RickAndMortyCells', () => {
   let el;
 
   teardown(() => fixtureCleanup());
 
   setup(async () => {
-    el = await fixture(html`<rickandmorty-dp></rickandmorty-dp>`);
+    el = await fixture(html`<rick-and-morty-cells></rick-and-morty-cells>`);
     await el.updateComplete;
   });
 

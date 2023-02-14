@@ -1,0 +1,1 @@
+export { RickAndMortyCells } from './src/RickAndMortyCells.js';
